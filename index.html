@@ -111,13 +111,14 @@
 </table>
 <!--Table Caption-->
 <p>
-  Data: <a href="https://www.wikipedia.org/">Wikipedia</a>
+  Data: <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>
 </p>
 <!--Webform Question-->
 <p>
   Which of these YouTube channels have you watched before?
 </p>
 <!--Webform Options-->
+<fieldset>
  <form action="submit.php" method="post">
         <label for="tseries"><input type="radio" id="tseries" name="channels[]" value="T-Series"> T-Series</label><br>
         <label for="mrbeast"><input type="radio" id="mrbeast" name="channels[]" value="MrBeast"> MrBeast</label><br>
@@ -131,3 +132,4 @@
         <label for="wwe"><input type="radio" id="wwe" name="channels[]" value="WWE"> WWE</label><br>
         <input type="submit" value="Submit">
  </form>
+</fieldset>
